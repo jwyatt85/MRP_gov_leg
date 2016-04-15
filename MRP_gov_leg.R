@@ -5,7 +5,7 @@ library(readr)
 library(dplyr)
 library(mrpExport)
 
-### Trump v. Hillary State level estimates ------------------------------------------------------------------------------------------------------------------------
+### Gov estimates ------------------------------------------------------------------------------------------------------------------------
 setwd("~/Desktop")
 tsdat <- read_rds("tsdat_updated.rds")
 
