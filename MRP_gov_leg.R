@@ -33,7 +33,8 @@ gov_test <- mrpInput(
   formula        = as.formula("LEG1_combined ~ age + sex + race + education + stname"),
   update_formula = as.formula(.~. + obama12 + unemployment_rate + obama_approve + percent_gdp_increase), 
   polling_data   = tsdat_test2,
-  agg_level      = 'stname'
+  agg_level      = 'stname',
+  weights = FALSE
 ) %>% 
   estimate(disagg=TRUE)
 
