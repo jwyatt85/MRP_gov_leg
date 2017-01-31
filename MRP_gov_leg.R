@@ -1,4 +1,4 @@
-# Adding this to Git
+
 #### Senate/House/Gov MRP Estimates
 
 library(readr)
@@ -6,7 +6,7 @@ library(dplyr)
 library(mrpExport)
 
 ### Gov estimates ------------------------------------------------------------------------------------------------------------------------
-setwd("~/Desktop")
+# setwd("~/Desktop")
 tsdat <- read_rds("tsdat_updated.rds")
 
 tsdat_test2 <- tsdat %>% 
